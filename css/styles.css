@@ -156,11 +156,6 @@ body {
 }
 
 
-.header-contacts-item {
-  display: flex;
-align-items: center;
-}
-
 .header-contacts-link {
   display: flex;
   align-items: center;
@@ -175,6 +170,7 @@ margin-right: 10px;
 .header-contacts-link:focus .contacts-icon {
 fill: var(--accent-color);
 }
+
 
 
 .header-nav {
@@ -641,7 +637,11 @@ justify-content: center;
   flex-basis: calc((100%-60px) / 3);
 }
 
-.portfolio-projects-item:hover {
+.portfolio-projects-link {
+  display: block;
+}
+
+.portfolio-projects-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 
   1px 4px 6px rgba(0, 0, 0, 0.16);
 }
